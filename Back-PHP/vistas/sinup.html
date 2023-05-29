@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vistas/singup.css">
+  <title>Registro</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Registro</h2>
+    <form>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" placeholder="usuario">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="email">
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirmar Contraseña:</label>
+        <input type="password" class="form-control" id="confirm-password" placeholder="Confirma tu contraseña">
+      </div>
+      <a href="../vistas/index.html"class="btn btn-primary">Registrarme</a>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+<script>
+
+    function Validar() {
+      let usuario = $('#users').val();
+      let email = $('#email').val();
+      let password = $('#password').val();
+      let confirm_password = $('#confirm-password').val();
+      if (usuario == '' || usuario == null || usuario == undefined) {
+        alert('Campo vacio');
+        return false;
+      }
+      if (email == '' || email == null || email == undefined) {
+        alert('Campo vacio');
+      }
+      if (password == '' || password == null || password == undefined) {
+        alert('Campo vacio');
+      }
+      if (confirm_password == '' || confirm_password == null || confirm_password == undefined) {
+        alert('Campo vacio');
+      }
+      else {
+        location.href="../dashboard/index.html";
+      }
+    }
+  </script> 
+    <!-- if (usuario.length < 3 || usuario.length > 20) {
+        alert('El nombre de usuario debe tener 3 a 20 caracteres');
+        return false;
+        }
+        if (email.length < 3 || email.length > 20) {
+            alert('El email debe tener 3 a 20 caracteres');
+            return false;
+            }
+            if (password.length < 3 || password.length > 20) {
+            alert('La contraseña debe tener 3 a 20 caracteres');
+            return false;
+            }
+            if (confirm_password.length < 3 || confirm_password.length > 20) {
+                alert('La confirmación de la contraseña debe tener 3 a 20 caracteres');
+                return false;
+                }
+                if (password != confirm_password) {
+                    alert('Las contraseñas no coinciden');
+                    return false;
+                    }
+                    return true;
+                    } 

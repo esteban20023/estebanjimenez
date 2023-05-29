@@ -1,0 +1,45 @@
+<div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+          </div>
+        </div>
+
+
+
+
+//navegador web 
+        <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <img src="" alt="Logo" width="10" height="14" class="d-inline-block align-text-top">
+        BIENVENIDOS
+      </a>
+    </div>
+  </nav>
+
+  <img src="imagenes/logo 1.png" alt="" width="5%">
+
+
+  solicitud
+  <input type="text" name="name" id="name" placeholder="ingrese su nombre">
+                        <input type="email" name="email" id="email" placeholder="ingrese su correo"> <br>
+                        <input type="number" name="phone" id="phone" placeholder="ingrese su telefono">

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="solicitud.css">
+  <title>DASHBOARD</title>
+</head>
+
+<body>
+
+  <nav>
+    <div style="width: 100%; height: 15vh; background-color: rgba(255, 255, 255, 0);">
+      <svg style="position: absolute; top: 6px;" class="circle" width="80px" height="80px">
+        <circle cx="40" cy="40" r="35" fill="white" />
+    </svg>
+    <img src="imagenes/logo 1.png" width="40px" style="position: absolute; top: 17px; left: 20px;"   alt="">
+    <div style="background-color: rgba(219, 123, 123, 0.575); width: 35%; height: 100%; padding: 20px 20px 0px 20px; border-bottom-right-radius: 60px;">
+      <div style="height: 70%; width: 90%; background-color: rgba(187, 43, 43, 0.808); border-bottom-right-radius: 60px;">
+        <h5 style=" margin-left: 90px; color: whitesmoke; font-family: 'Times New Roman', Times, serif;"  class="pt-3">SOLICITUDES</h5> 
+      </div>
+
+    </div>
+  </div>
+  </nav>
+
+  <div class="container w-100">
+    <div class="row">
+      <div class="col-ms-12 col-md-2 col-xl-2 bg-green">
+        <div class="menu">
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="index.html">INICIO</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">MARCAS</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+            <a class="dropdown-item" href="">DESCRIPCION</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">GRAFICAS</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">VENTAS</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">SOLICITUD</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">ALQUILER</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">COLORES</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">UBICACION</a>
+            </ul>
+          </div>
+          <div class="sub-menu">
+            <ul>
+              <a class="dropdown-item" href="">CONTACTANOS</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-ms-12 col-md-10 col-xl-10 bg-blue ">
+        <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="box">
+                <p>88 <br>
+                <img src="" alt="">    
+                <span>SOLICITUDES</span></p>
+            </div>
+              </div>
+              <div class="col">
+                <div class="box">
+                <p>23<br><span>ALQUILER</span></p>               
+                </div>
+              </div>
+              <div class="col">
+                <div class="box">
+                <p>88 <br><span>DIAS DE ALQUILER</span></p>            
+            </div>
+              </div>
+              <div>
+                <div class="solicitud">
+                </br>
+                    <h1>SOLICITUD</h1>
+                    <p>seleccione el tipo de solicitud</p>}
+                    <select name="opcion" id="opcion">
+                        <option value="opcion">-------------------------</option>
+                        <option value="opcion">Inscripción en el evento</option>
+                        <option value="opcion">Registro de la cuenta</option>
+                        <option value="opcion">Formularios de inspección</option>
+                    </select>
+                </div>
+                <div>
+                    <div class="formulario m-2 ">
+                        <div class="container text-center">
+                            <div class="row align-items-start">
+                              <div class="col">
+                                <div class="nombre m-2">
+                                <input type="text" name="name" id="name" placeholder="Ingrese sus nombres">
+                            </div>
+                            <div class="nombre m-2">
+                                <input type="text" name="firstname" id="firstname" placeholder="ingrese sus apellidos">
+                            </div>
+                            <div class="nombre m-2">
+                                <textarea name="descripcion" cols="30" rows="2"></textarea>
+                            </div>
+                              </div>
+                              
+                              <div class="col">
+                                <div class="nombre m-2">
+                                <input type="email" name="email" id="email" placeholder="ingrese su correo electronico">
+                              </div>
+                              <div class="nombre m-2">
+                                 <input type="number" name="phone" id="phone" placeholder="Ingrese su numero de celular">
+                              </div>
+                              <div class="nombre m-2">
+                                <button type="submit">Enviar</button>
+                             </div>
+                            </div>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

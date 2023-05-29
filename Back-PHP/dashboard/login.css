@@ -1,0 +1,63 @@
+body {
+    margin: 0%;
+    padding: 0;
+    background: url(https://cdn.pixabay.com/photo/2014/07/31/23/10/biker-407123_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+.container{
+    justify-items: end;
+    background-color: #615e5edc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(226, 223, 223, 0.3);
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 50px;
+}
+
+h2{
+    display: flex;
+    margin-left: 70px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    font-size: 20px;
+    margin-bottom: 9px;
+    color: white;
+}
+  
+input {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+  
+button {
+    display: flex;
+    margin-left: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    width: 150px;
+    justify-items: end;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+.olvidaste{
+    font-family: 'Times New Roman', Times, serif;
+    stop-color: blue;
+}
